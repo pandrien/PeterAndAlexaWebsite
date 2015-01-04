@@ -1,3 +1,8 @@
+* {
+   -webkit-box-sizing: border-box;   /* Safari 3-4, also probably droppable */
+    box-sizing:        border-box;   /* Everything else */
+}
+
 /* center website */
 body {
 	margin:0;
@@ -33,6 +38,11 @@ body {
 	background:#8365bb;
 	color:#000;
 	font-size:150%;
+	border-radius:5px;
+
+	-moz-user-select: none;
+   	-khtml-user-select: none;
+   	-webkit-user-select: none;
 }
 
 #headerPicture {
@@ -40,11 +50,17 @@ body {
 }
 
 
-#menu ul li a{
-
-
+#menu ul li a:hover{
+	background-color: #FFF;
+	box-shadow: 1px 1px 5px #FFF;
+	
 }
 
+#menu ul li a:active{
+	background-color: #FFF;
+	box-shadow: 1px 1px 5px #FFF;
+	
+}
 /*Place Picture Caption*/
 #PictureCaption {
 	padding: 0 60px;
@@ -52,7 +68,7 @@ body {
 	color:white;
 	position:absolute;
 	top:480px;
-	width:760;
+	width: 900;
 	text-shadow: black 0.2em 0.05em 0.2em;
 	line-height: 20px;
 }
