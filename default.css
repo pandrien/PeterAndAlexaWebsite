@@ -3,7 +3,7 @@ body {
 	margin:0;
 	padding:0;
 	text-align: center;
-	background-color:#4b1577;
+	/*background-color:#4b1577;*/
 }
 
 #wrap {
@@ -13,6 +13,9 @@ body {
 }
 
 #menu {
+	padding: 10px;
+	background:#4b1577;
+	border-bottom:40px solid #000;	
 }
 
 #menu ul{
@@ -25,10 +28,11 @@ body {
 }
 
 #menu ul li a{
-	margin: 0 0 0 2px;
-	padding: 16px 16px;
+	margin: 10px;
+	padding: 10px 26px;
 	background:#8365bb;
 	color:#000;
+	font-size:150%;
 }
 
 #headerPicture {
