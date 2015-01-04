@@ -1,12 +1,9 @@
-/* overwrite default style sheet */
-
-
 /* center website */
 body {
 	margin:0;
 	padding:0;
 	text-align: center;
-	background-color:4b1577;
+	background-color:#4b1577;
 }
 
 #wrap {
@@ -15,10 +12,31 @@ body {
 	margin: 0 auto;
 }
 
-#headerPicture {
-	position:absolute;
+#menu {
 }
 
+#menu ul{
+}
+
+
+#menu ul li {
+	list-style:none;
+	float:left;
+}
+
+#menu ul li a{
+	margin: 0 0 0 2px;
+	padding: 16px 16px;
+	background:#8365bb;
+	color:#000;
+}
+
+#headerPicture {
+	position:relative;
+}
+
+
+/*Place Picture Caption*/
 #PictureCaption {
 	color:white;
 	position:absolute;
@@ -28,4 +46,6 @@ body {
 	text-shadow: black 0.1em 0.1em 0.2em
 }
 
-
+#PictureCaption p {
+       	font-size:300%
+}
