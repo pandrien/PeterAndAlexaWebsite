@@ -3,7 +3,7 @@ body {
 	margin:0;
 	padding:0;
 	text-align: center;
-	/*background-color:#4b1577;*/
+	background-color:#d8d2f8;
 }
 
 #wrap {
@@ -40,14 +40,21 @@ body {
 }
 
 
+#menu ul li a{
+
+
+}
+
 /*Place Picture Caption*/
 #PictureCaption {
+	padding: 0 60px;
+	text-align: left;
 	color:white;
 	position:absolute;
-	top:450px;
-	left:20px;
-	width:800;
-	text-shadow: black 0.1em 0.1em 0.2em
+	top:480px;
+	width:760;
+	text-shadow: black 0.2em 0.05em 0.2em;
+	line-height: 20px;
 }
 
 #PictureCaption p {
