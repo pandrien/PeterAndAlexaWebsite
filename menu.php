@@ -6,7 +6,7 @@
 	$today = time();
 	$difference = $cdate - $today;
 	if ($difference < 0) { $difference = 0; }
-	echo "<h1> There are ". floor($difference/60/60/24)." days remaining till the wedding.</h1>";
+	echo "<h1> There are ". floor($difference/60/60/24)." days remaining until the wedding.</h1>";
 ?>
 	
 <div id="menu">
