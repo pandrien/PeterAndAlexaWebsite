@@ -11,18 +11,7 @@
 <body>
 
 <div id="wrap">
-	<p style="color:red;"> This site is under construction.
-	Please Come back later when it is finished. </p>
-	
-	<div id="menu">
-		<ul>
-			<li><a href="default.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="directions.html">Directions</a></li>
-			<li><a href="registry.html">Registry</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</div>
+	<?php include("menu.php"); ?>
 
 	<div id="headerPicture">
 
