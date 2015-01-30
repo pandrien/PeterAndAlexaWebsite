@@ -17,6 +17,10 @@ body {
 	margin: 0 auto;
 }
 
+#banner {
+	text-align: center;
+}
+
 #menu {
 	padding: 10px;
 	background:#4b1577;
@@ -34,7 +38,7 @@ body {
 
 #menu ul li a{
 	margin: 10px;
-	padding: 10px 26px;
+	padding: 10px 20px;
 	background:#8365bb;
 	color:#000;
 	font-size:150%;
