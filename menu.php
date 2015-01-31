@@ -108,11 +108,11 @@ print_r($user_ip);
 	
 <div id="menu">
 	<ul>
-		<li><a href="index.php<?php genGet(); ?>">Home</a></li>
-		<li><a href="about.php<?php genGet(); ?>">About</a></li>
-		<li><a href="directions.php<?php genGet(); ?>">Directions</a></li>
-		<li><a href="registry.php<?php genGet(); ?>">Registry</a></li>
-		<li><a href="contact.php<?php genGet(); ?>">Contact</a></li>
-		<li><a href="rsvp.php<?php genGet(); ?>">RSVP!</a></li>
+		<li><a href="/<?php genGet(); ?>">Home</a></li>
+		<li><a href="about<?php genGet(); ?>">About</a></li>
+		<li><a href="directions<?php genGet(); ?>">Directions</a></li>
+		<li><a href="registry<?php genGet(); ?>">Registry</a></li>
+		<li><a href="contact<?php genGet(); ?>">Contact</a></li>
+		<li><a href="rsvp<?php genGet(); ?>">RSVP!</a></li>
 	</ul>
 </div>
