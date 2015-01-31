@@ -2,8 +2,7 @@
 <html>
 
 <link href="default.css" rel="stylesheet" type="text/css">
-
-<head>
+L<head>
   <meta charset="UTF-8">
   <title>Peter &amp; Alexa 2014</title>
 </head>
@@ -11,52 +10,34 @@
 <body>
 
 <div id="wrap">
-	<?php include("menu.php"); ?>
 
-	<?php 
-	function hasName() {
-		return isset($_GET['First']) && isset($_GET['Last']);
-	}
+<?php 
 
-	function nameForm() {
-		echo('
-		<form action="rsvp.php">
-		First Name:<br>
-		<input type="text" name="First">
-		<br>
-		Last Name:<br>
-		<input type="text" name="Last">
-		<br><br>
-		<input type="submit" value="Lookup">
-		</form>');
-	}
+include("menu.php");
 
-	function rsvpForm() {
-		echo('<p style="color:red">testing</p>');
-		echo('<p style="color:red">Name not found</p>');
+function rsvp() {
+	$people = getParty();
+	if(!$people) {
 		nameForm();
+		return;
 	}
 
-	if(hasName() == TRUE) {
-		rsvpForm();
-	} else {
-		nameForm();
-	}
+	echo("<p>Thank you for visiting our website take a momment to fill out
+		information for each of the following people.<p>");
 
-	?>
- 
+	echo("<form>");
+	foreach ($people as $name) {
+		echo($name);
+		echo("<br><input><br>");
+	}
+}
+
+rsvp();
+
+?>
 
 </div>
 
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
