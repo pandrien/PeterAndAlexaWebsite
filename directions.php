@@ -37,7 +37,7 @@ function directions() {
 	<a href='https://goo.gl/maps/rDKoG'>Google Maps</a>
 
 	<h1>The Reception</h1>
-	<h2>12:00 PM - 2:00 PM</h2>
+	<h2>12:00 PM - 3:00 PM</h2>
 	<p>Courtyard San Diego Oceanside</p>
 	<p>3501 Seagate Way</p>
 	<p>Oceanside, CA 92056</p>

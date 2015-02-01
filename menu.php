@@ -22,6 +22,12 @@ function hasName() {
 	return isset($_GET['First']) && isset($_GET['Last']);
 }
 
+function in_arrayi($needle, $haystack)
+{
+	return in_array(strtolower($needle), 
+		array_map('strtolower', $haystack));
+} 
+
 function nameForm() {
 	echo('
 	<h2>One Moment. Let\'s get your name...</h2>
@@ -46,13 +52,13 @@ function getParty($error="") {
 	}
 	
 	// Is this input safe to prodeed:q
-	if(!preg_match('/^[a-z][a-z]*$|^[a-z][a-z]* [a-z][a-z]*$/i', 
+	if(!preg_match('/^[a-z]{1,20}$|^[a-z]{1,20} [a-z]{1,20}$/i', 
 		$_GET['First'])) {
 		$error="<p style='color:red'>Invalid first name format</p>";
 		return FALSE;
 	}
 
-	if(!preg_match('/^[a-z][a-z]*$/i',$_GET['Last'])) {
+	if(!preg_match('/[a-z]{1,20}$/i',$_GET['Last'])) {
 		$error ="<p style='color:red'>Invalid last name format</p>";
 		return FALSE;
 	}
@@ -60,7 +66,7 @@ function getParty($error="") {
 	global $guestlist;
 	// Do they match an entry in the guest list
 	foreach ($guestlist as $party) {
-		if (in_array($_GET["First"]." ".$_GET["Last"], $party)) {
+		if (in_arrayi($_GET["First"]." ".$_GET["Last"], $party)) {
 			return $party;
 		}
 	}
@@ -82,7 +88,6 @@ function genGet() {
 }
 
 ?>
-
 
 
 <p style="color:red;"> This site is under construction.
