@@ -29,6 +29,9 @@ function in_arrayi($needle, $haystack)
 } 
 
 function nameForm() {
+	echo('Your IP is ');
+	echo(getenv('REMOTE_ADDR'));
+
 	echo('
 	<h2>One Moment. Let\'s get your name...</h2>
 	<form>
@@ -41,11 +44,11 @@ function nameForm() {
 	<input type="text" pattern="[a-zA-Z]{1,20}" 
 		title="Only enter A through Z characters." name="Last">
 	<br><br>
-	<input type="submit" value="Lookup">
+	<input type="submit" value="Lookup my name!">
 	</form>');
 }
 
-function getParty($error="") {	
+function getParty(&$error=null) {	
 	// Is the user logged in?
 	if(hasName() == FALSE) {
 		return FALSE;
@@ -71,10 +74,15 @@ function getParty($error="") {
 		}
 	}
 
-	$error = '<p style="color:red">Not finding you. 
-		Contact me for support.</p>';
+	$error = '<p style="color:red">The name you entered was not found.</p>';
 	return FALSE;
 }						
+
+function unsafeGet() {
+	return "?First=".urlencode($_GET["First"]).
+		"&Last=".urlencode($_GET["Last"]);
+}
+
 
 function genGet() {
 	if (getParty()) {
@@ -92,12 +100,6 @@ function genGet() {
 
 <p style="color:red;"> This site is under construction.
 	Please Come back later when it is finished. </p>
-
-<?php 
-$user_ip = getenv('REMOTE_ADDR'); 
-print_r($user_ip);
-?>
-
 
 <div id="banner">
 	<?php 
