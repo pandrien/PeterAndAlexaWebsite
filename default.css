@@ -55,11 +55,9 @@ body {
 	position:relative;
 }
 
-
 #menu ul li a:hover{
 	background-color: #FFF;
 	box-shadow: 1px 1px 5px #FFF;
-	
 }
 
 #menu ul li a:active{
@@ -81,4 +79,15 @@ body {
 
 #PictureCaption p {
        	font-size:300%
+}
+
+img.cimg {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+#About p {
+	color:#4b1577;
 }

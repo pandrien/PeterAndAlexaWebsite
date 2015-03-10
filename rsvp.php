@@ -31,10 +31,9 @@ function rsvp() {
 	echo("<form action='email.php".unsafeGet()."' method='post'>");
 	foreach ($people as $name) {
 		echo("<b>".$name."</b>");
-		echo("<br>Will Attend?  <input type='checkbox' name='".$name."Attend'> 
-			Special dietary needs? <input type='text' name='".$name."Food'><br><br>");
+		echo("<br>Will Attend?  <input type='checkbox' name='".$name."'><br><br>");
 	}
-	echo("<br><input type='submit' value='Submit'");
+	echo("<br><input type='submit' value='Submit'></form>");
 }
 
 rsvp();

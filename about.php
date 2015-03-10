@@ -14,16 +14,28 @@
 	<?php include("menu.php"); ?>
 
 	<div id="About">
-		<p style="color:red;">Under Construction</p>
-
-		<img SRC="Boojum2.jpg">
-		<img SRC="HvZ1.jpg">
-		<img SRC="Engagement1.jpg">
-		<img SRC="Grad1.jpg">
-		<img SRC="Park.jpg">
-		<img SRC="Park2.jpg">
+		<p></p>
 		
-
+		<img class="cimg" SRC="Park.jpg">
+		
+		<p></p>	
+		<img class="cimg" SRC="Boojum2.jpg">
+		
+		<p></p>
+		<img class="cimg" SRC="HvZ1.jpg">
+		
+		<p></p>
+		<img class="cimg" SRC="tiedye.jpg">
+		
+		<p></p>
+		<img class="cimg" SRC="Engagement1.jpg">
+		
+		<p></p>
+		<img class="cimg" SRC="Grad1.jpg">
+		
+		<p></p>
+		<img class="cimg" SRC="Park2.jpg">
+		
 	</div>
 </div>
 

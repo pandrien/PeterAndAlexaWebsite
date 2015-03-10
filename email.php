@@ -15,20 +15,40 @@
 <?php 
 include("menu.php"); 
 
-$message = '';
+require_once "Mail.php";
 
+$from = "Peter Andrien <pand1024wedding@gmail.com>";
+$to = "Peter Andrien <pand1024@gmail.com>";
+$subject = "Someone sent you and RSVP";
+$body = "";
+ 
 foreach ($_POST as $key => $val) {
-	$message .= $key." = ".$val."\n";
+	$body .= $key." = ".$val."\n";
 }
 
-if(mail('pand1024@gmail.com','Someone sent their RSVP!',$message)) {
-	echo "<h1>Form Summited!</h1>";
-} else {
-	echo "<p>Just kidding. Something went wrong. :P</p>";
-}
-
+$host = "ssl://smtp.googlemail.com";
+$port = "465";
+$username = "pand1024wedding";
+$password = "3feethigh";
+ 
+$headers = array ('From' => $from,
+   'To' => $to,
+   'Subject' => $subject);
+$smtp = Mail::factory('smtp',
+   array ('host' => $host,
+     'port' => $port,
+     'auth' => true,
+     'username' => $username,
+     'password' => $password));
+ 
+$mail = $smtp->send($to, $headers, $body);
+ 
+if (PEAR::isError($mail)) {
+   echo("<p>" . $mail->getMessage() . "</p>");
+  } else {
+   echo("<p>Message successfully sent!</p>");
+  }
 ?>
-
 
 </div>
 

@@ -28,7 +28,7 @@ function directions() {
 	echo " 
 	<h1>The Church</h1>
 
-	<h2>11:00 AM - 11:45 PM</h2>
+	<h2>11:00 AM - 11:45 AM</h2>
 	<p>First Presbyterian Church</p>
 	<p>2001 S. El Camino Real</p>
 	<p>Oceanside, CA 92054</p>
