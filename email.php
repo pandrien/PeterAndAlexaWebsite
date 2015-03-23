@@ -13,41 +13,43 @@
 <div id="wrap">
 
 <?php 
-include("menu.php"); 
 
-require_once "Mail.php";
+$url = 'https://api.sendgrid.com/';
+$user = 'azure_d7a00faebedbac4f2e26a151f8220507@azure.com';
+$pass = 'PF4m922FC4bZv1L'; 
 
-$from = "Peter Andrien <pand1024wedding@gmail.com>";
-$to = "Peter Andrien <pand1024@gmail.com>";
-$subject = "Someone sent you and RSVP";
 $body = "";
  
 foreach ($_POST as $key => $val) {
 	$body .= $key." = ".$val."\n";
 }
 
-$host = "ssl://smtp.googlemail.com";
-$port = "465";
-$username = "pand1024wedding";
-$password = "3feethigh";
- 
-$headers = array ('From' => $from,
-   'To' => $to,
-   'Subject' => $subject);
-$smtp = Mail::factory('smtp',
-   array ('host' => $host,
-     'port' => $port,
-     'auth' => true,
-     'username' => $username,
-     'password' => $password));
- 
-$mail = $smtp->send($to, $headers, $body);
- 
-if (PEAR::isError($mail)) {
-   echo("<p>" . $mail->getMessage() . "</p>");
-  } else {
-   echo("<p>Message successfully sent!</p>");
-  }
+$params = array(
+     'api_user' => $user,
+     'api_key' => $pass,
+     'to' => 'pand1024@gmail.com',
+     'subject' => 'RSVP',
+     'html' => $body,
+     'text' => $body,
+     'from' => 'anna@contoso.com',
+);
+
+$request = $url.'api/mail.send.json';
+ // Generate curl request
+$session = curl_init($request);
+ // Tell curl to use HTTP POST
+curl_setopt ($session, CURLOPT_POST, true);
+ // Tell curl that this is the body of the POST
+curl_setopt ($session, CURLOPT_POSTFIELDS, $params);
+ // Tell curl not to return headers, but do return the response
+curl_setopt($session, CURLOPT_HEADER, false);
+curl_setopt($session, CURLOPT_RETURNTRANSFER, true);
+ // obtain response
+$response = curl_exec($session);
+curl_close($session);
+ // print everything out
+print_r($response);
+
 ?>
 
 </div>
