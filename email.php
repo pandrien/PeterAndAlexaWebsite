@@ -12,6 +12,8 @@
 
 <div id="wrap">
 
+<?php include("menu.php"); ?>
+
 <?php 
 
 $url = 'https://api.sendgrid.com/';
