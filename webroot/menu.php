@@ -1,36 +1,36 @@
 
 <?php
-	$guestlist = array(
-		array("Alexa Serrato", "Peter Andrien"),
-
-		/*Peter's Relatives*/
-		array("Debbie Andrien","Steve Andrien"),
-		array("David Andrien","Marta Andrien"),
-		array("Paul Andrien"),
-		array("Vera Postula"),
-		array("Kirk Huckabone"),
-		array("Bev Smith","Scott Smith", "Danielle Smith", "Beric Smith", "Parker Smith", "Veronica Smith"),
-		array("Bob Baumheckel","Lynne Baumheckel"),
-		array("Maria Hertzberg"),
+$guestlist = array(
+	array("Alexa Serrato", "Peter Andrien"),
+	
+	/*Peter's Relatives*/
+	array("Debbie Andrien","Steve Andrien"),
+	array("David Andrien","Marta Andrien"),
+	array("Paul Andrien"),
+	array("Vera Postula"),
+	array("Kirk Huckabone"),
+	array("Bev Smith","Scott Smith", "Danielle Smith", "Beric Smith", "Parker Smith", "Veronica Smith"),
+	array("Bob Baumheckel","Lynne Baumheckel"),
+	array("Maria Hertzberg"),
 		
-		/*Alexa's Relatives*/
-		array("Fran Serrato","Gonzalo Serrato"),
-		array("Marissa Serrato"),
-		array("Melinda Serrato"),
-		array("Guillermina Baltazar","Merced Baltazar"),
-		array("Claudia Baltazar"),
-		array("Livier Baltazar"),
-		array("Irma Baltazar","Luis Santana", "Alyssa Santana", "Andy Santana"),
-		array("Rosie Marquis","Sal Marquis", "Aimee Marquis", "Michael Marquis"),
-		array("Marty Szala","Larry Szala"),
-		array("Mercedez Aragonez","Katie Aragonez"),
+	/*Alexa's Relatives*/
+	array("Fran Serrato","Gonzalo Serrato"),
+	array("Marissa Serrato"),
+	array("Melinda Serrato"),
+	array("Guillermina Baltazar","Merced Baltazar"),
+	array("Claudia Baltazar"),
+	array("Livier Baltazar"),
+	array("Irma Baltazar","Luis Santana", "Alyssa Santana", "Andy Santana"),
+	array("Rosie Marquis","Sal Marquis", "Aimee Marquis", "Michael Marquis"),
+	array("Marty Szala","Larry Szala"),
+	array("Mercedez Aragonez","Katie Aragonez"),
 
-		/*More Friends*/
-		array("Calvin Maldonado", "May Lynn Forssen")
-		array("Alice Chillington","Jesse Chillington"),
-		array("Joshua Vasquez"),
-		array("LaVonne Johnson"),
-	);
+	/*More Friends*/
+	array("Calvin Maldonado", "May Lynn Forssen"),
+	array("Alice Chillington","Jesse Chillington"),
+	array("Joshua Vasquez"),
+	array("LaVonne Johnson"),
+);
 
 
 function hasName() {
