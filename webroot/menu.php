@@ -8,8 +8,8 @@ $guestlist = array(
 	array("David Andrien","Marta Andrien"),
 	array("Paul Andrien"),
 	array("Vera Postula"),
-	array("Kirk Huckabone"),
-	array("Bev Smith","Scott Smith", "Danielle Smith", "Beric Smith", "Parker Smith", "Veronica Smith"),
+	array("Kirk Huckabone", "Marlene Huckabone", "Colton Huckabone", "Garrett Huckabone", "Stephen Huckabone"),
+	array("Beverly Smith","Scott Smith", "Danielle Smith", "Beric Smith", "Parker Smith", "Veronica Smith"),
 	array("Bob Baumheckel","Lynne Baumheckel"),
 	array("Maria Hertzberg"),
 		
