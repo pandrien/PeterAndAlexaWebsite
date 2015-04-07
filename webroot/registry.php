@@ -14,20 +14,18 @@
 	<?php include("menu.php"); ?>
  
 	<div id="registry">
-		<h1>Not sure what to give?</h1>
-		<p>Below you will find our wedding registry. 
-		   Gifts are optional, but we know that having a registry is important. 
-		   Our registry is managed through amazon. 
-		<a href="http://www.amazon.com/registry/wedding/1JRKIVJRHZNVE">
-			Our Amazon Registry</a>
+		<h1>Registry</h1>
+		<p><a href="http://www.amazon.com/registry/wedding/1JRKIVJRHZNVE">
+			Our Registry (managed by Amazon)</a></p>
 
-		<p>Just click the "Buying this gift elsewhere?" button if 
-		   you get something on the list from another store.</p>
+		<p><a href="http://www.alaskaair.com/content/gifts-and-products/gift-cards-certificates/gift-card-overview.aspx">
+			Alaska Airlines Gift Certificates</a></p>
 
-		<h1>Bring or Mail?</h1>
-		<p>Please don't bring anything that won't fit in our luggage.</p>
-
-		<p>Please address package to "Peter Andrien"</p>
+		<p>While gifts would be appriciated, please know that your presence 
+		on our special day will equally be a gift to us.
+		
+		<h2>Address</h2>
+		<p>If you choose to give a gift (unless it will fit in our luggage) please address it to Peter Andrien.</p>
 	</div>
 	
 	<div id="address">
@@ -37,12 +35,6 @@
 	</div>
 
 	<div id="registry">
-		<h1>Help us fly</h1>
-		<p>Help us bridge the gap. It's a long 
-		drive but Alaska Airlines has flights 
-		between Pullman and Seattle!</p>
-		<a href="http://www.alaskaair.com/content/gifts-and-products/gift-cards-certificates/gift-card-overview.aspx">
-			Alaska Airlines Gift Certificates</a>
 	</div>
 </div>
 </body>

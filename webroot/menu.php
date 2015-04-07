@@ -48,7 +48,7 @@ function nameForm() {
 	echo(getenv('REMOTE_ADDR'));
 
 	echo('
-	<h2>One Moment. Let\'s get your name...</h2>
+	<h2>To view, please enter your name.</h2>
 	<form>
 	First Name:<br>
 	<input type="text" pattern="[a-zA-Z ]{1,20}" 
