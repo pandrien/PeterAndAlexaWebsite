@@ -20,7 +20,7 @@ $to = "Peter Andrien <pand1024@gmail.com>";
 $subject = "Someone sent you an RSVP";
 $body = "";
 foreach ($_POST as $key => $val) {
-$body .= $key." = ".$val."\n";
+	$body .= $key." = ".$val."\n";
 }
 
 $host = "smtp.googlemail.com";

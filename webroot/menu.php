@@ -29,6 +29,7 @@ $guestlist = array(
 	array("Calvin Maldonado", "May Lynn Forssen"),
 	array("Alice Chillington","Jesse Chillington"),
 	array("Joshua Vasquez"),
+	array("Gary Lent","Jenna Telfer"),
 	array("LaVonne Johnson"),
 );
 
