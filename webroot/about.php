@@ -32,21 +32,22 @@
 		<p>As we slowly fell in love, we bonded over active college games and activities, including “Battle Tie Dye”, an annual event where students color white t-shirts with dye soaked pool toys.</p>
 		
 		<img class="cimg" SRC="masquerade.png">
-		<p></p>
+		<p>We wanted to spend more time together, so we combined this with our love for music and dance. Claremont has a vibrant ballroom dance community and puts on many event including an annual masquerade (above) and black & white ball (below).</p>
 		
 		<img class="cimg" SRC="BlackAndWhiteBall.png">
-		<p></p>
+		<p>We love dancing with each other, whether it’s ballroom, ballet, hip hop, or making up our own moves.</p>
 		
 		<img class="cimg" SRC="prom2012.png">
-		<p></p>
+		<p>It just so happens we both didn’t go to Prom, so when Harvey Mudd College had a throwback to high school prom, we couldn’t resist taking a study break.</p>
 		
 		<img class="cimg" SRC="Engagement1.jpg">
-		<p></p>
+		<p>We got engaged at the Huntington Gardens in March of 2014. Peter proposed to Alexa in front of a beautiful lily pond, and of course Alexa said yes!</p>
 		
 		<img class="cimg" SRC="Grad1.jpg">
-		<p></p>
+		<p>Today, a year later now, Peter is working for Microsoft in Redmond, Washington and Alexa is attending graduate school in mathematics at Washington State University in Pullman, Washington.</p>
 		
 		<img class="cimg" SRC="Park2.jpg">
+		  
 	</div>
 </div>
 
