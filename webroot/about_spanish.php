@@ -41,7 +41,7 @@
 		<p>Ambos no ir al baile "Prom" cuando estábamos en la escuela secundaria. Cuando Harvey Mudd College tuvo un baile "Prom," Peter y Alexa no pudimos resistirnos tomar un descanso de estudio.</p>
 		
 		<img class="cimg" SRC="Engagement1.jpg">
-		<p>Nos comprometimos en los Jardines Huntington en marzo de 2014. íamos por mucho tiempo que eventualmente nos casamos. ¡Peter propuso a Alexa enfrente de una estanque de nenúfares muy bonita y por supuesto Alexa le dijo que sí!</p>
+		<p>Nos comprometimos en los Jardines Huntington en marzo de 2014. ¡Peter propuso a Alexa enfrente de una estanque de nenúfares muy bonita y por supuesto Alexa le dijo que sí!</p>
 		
 		<img class="cimg" SRC="Grad1.jpg">
 		<p>Hoy Peter está trabajando por Microsoft en Redmond, Washington y Alexa está asistiendo escuela de posgrado en matemáticas en Washington State University en Pullman, Washington.</p>
