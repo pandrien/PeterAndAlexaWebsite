@@ -114,8 +114,7 @@ function genGet() {
 ?>
 
 
-<p style="color:red;"> This site is under construction.
-	Please Come back later when it is finished. </p>
+<p></p>
 
 <div id="banner">
 	<?php 
