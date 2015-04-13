@@ -95,3 +95,34 @@ img.cimg {
 #About p {
 	color:#4b1577;
 }
+
+#LangButton {
+	margin:20px;
+	padding:0px;
+	text-align: center;
+	height:30px;
+}
+	
+#LangButton a {
+	margin: 10px;
+	padding: 10px 250px;
+	background:#d8d2f8;
+	color:#000;
+	font-size:150%;
+	border-radius:5px;
+
+	transition: all 0.5s ease;
+
+	-moz-user-select: none;
+   	-khtml-user-select: none;
+   	-webkit-user-select: none;
+}
+
+#LangButton a:hover{
+	background-color: #8365bb;
+	box-shadow: 1px 1px 5px #8365bb;
+}
+
+#LangButton a:active{
+	background-color: #8365bb;
+	box-shadow: 1px 1px 5px #8365bb;

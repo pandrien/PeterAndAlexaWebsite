@@ -14,7 +14,7 @@
 	<?php include("menu.php"); ?>
 
 	<div id="LangButton">
-		<a href="about_spanish.php">Espa&ntilde;ol</a>
+		<a href="about.php">English</a>
 	</div>
 	
 	<div id="About">
