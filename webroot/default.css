@@ -92,6 +92,10 @@ img.cimg {
 	text-align: center;
 }
 
+#About {
+	padding-bottom: 40px;
+}
+
 #About p {
 	color:#4b1577;
 	font-size:150%;
