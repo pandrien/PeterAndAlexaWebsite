@@ -1,7 +1,7 @@
 
 <?php
 $guestlist = array(
-	array("Alexa Serrato", "Peter Andrien"),
+	/*array("Alexa Serrato", "Peter Andrien"),*/
 	
 	/*Peter's Relatives*/
 	array("Debbie Andrien","Steve Andrien"),
@@ -21,7 +21,7 @@ $guestlist = array(
 	array("Claudia Baltazar"),
 	array("Livier Baltazar"),
 	array("Irma Baltazar","Luis Santana", "Alyssa Santana", "Andy Santana"),
-	array("Rosie Marquis","Sal Marquis", "Aimee Marquis", "Michael Marquis"),
+	array("Rosie Marquez","Sal Marquez", "Aimee Marquez", "Michael Marquez"),
 	array("Marty Szala","Larry Szala"),
 	array("Mercedez Aragonez","Katie Aragonez"),
 
